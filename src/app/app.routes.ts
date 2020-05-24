@@ -4,7 +4,7 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 
 
 const app_routes: Routes =[
-    {path:' ', component:HomepageComponent},
+    {path:'', component:HomepageComponent},
     
     //{path:'**', pathMatch:'full', redirectTo:'home'}
     

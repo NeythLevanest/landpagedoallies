@@ -1,4 +1,17 @@
+
+nav.cian {
+    background: rgba(204, 204, 204, 0.9)!important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    transition: .5s;
+    
+}
+
+nav.vista {
+    display: none;
+    transition: top 5s;
+}
 .main-navegation-bar{
+    background-color: rgba(255, 255, 255, 0.5);
     width: 100%;
     height: 100px;
     display: flex;
@@ -12,7 +25,9 @@
     height: 40px;
     width: auto;
 }
+
 .menu-display ul{
+    width: 100%;
     display: flex;
     color: rgb(0,0,0);
     justify-content: space-around;
@@ -27,4 +42,17 @@
 }
 .menu-display ul a:hover{
     color: rgb(46, 112, 255)
+}
+@media only screen and (min-width: 734px) and (max-width: 959px){
+    .menu-display ul{
+        width: 500px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2){
+    .main-navegation-bar{
+        padding-left: 20px;
+        padding-right: 40px;
+    }
 }

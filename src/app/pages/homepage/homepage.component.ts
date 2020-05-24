@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+declare function activeNavController();
+
+
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
@@ -9,7 +12,8 @@ export class HomepageComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(){
+    activeNavController();
   }
-
+  
 }

@@ -139,3 +139,132 @@
      padding-left: 80px;
      padding-right: 80px;
  }
+.img-banner-city{
+    z-index: -99;
+}
+
+
+@media only screen and (min-width: 734px) and (max-width: 959px){
+    
+    .container-home {
+        display: grid !important;
+    }
+    .col-6{
+        flex:none;
+        max-width: 100%;
+    }
+    .vertical-borderline{
+        border-left: none !important;
+        margin-top: 100px;
+    }
+    .text-section{
+        text-align: center;
+    }
+    .text-padding{
+        max-width: 80% !important;
+        padding: 90px 100px 80px 60px;
+    }
+    .img-servicio-home{
+        position: absolute;
+        height: 300px;
+        width: auto;
+        bottom: 0;
+        right: 0px;
+        margin-left: 100px;
+    }
+        
+    .display-elements{
+        display: grid;
+    }
+    .col-4{
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (min-device-width: 330px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2){
+    .container-home {
+        display: grid !important;
+        margin: 160px auto;
+    }
+    .container-home-2 {
+        margin-right: 5;
+        width: 100%;
+    }
+    .col-6{
+        flex:none;
+        max-width: 100%;
+    }
+    .img-card{
+        justify-content: center;
+    }
+    .vertical-borderline{
+        border-left: none !important;
+        margin-top: 100px;
+        padding: 0;
+    }
+
+    .text-section{
+        text-align: center;
+    }
+    .text-padding{
+        max-width: 100% !important;
+        padding: 90px 100px 80px 60px;
+    }
+    .img-servicio-home{
+        display: none;
+    }
+        
+    .display-elements{
+        display: grid;
+    }
+    .col-4{
+        max-width: 100% !important;
+    }
+    .card-person-type{
+       
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 2){
+    .container-home {
+        display: grid !important;
+        margin: 160px auto;
+    }
+    .container-home-2 {
+        margin-right: 5;
+        width: 100%;
+    }
+    .col-6{
+        flex:none;
+        max-width: 100%;
+    }
+    .img-card{
+        justify-content: center;
+    }
+    .vertical-borderline{
+        border-left: none !important;
+        margin-top: 100px;
+        padding: 0;
+    }
+
+    .text-section{
+        text-align: center;
+    }
+    .text-padding{
+        max-width: 100% !important;
+        padding: 90px 100px 80px 60px;
+    }
+    .img-servicio-home{
+        display: none;
+    }
+        
+    .display-elements{
+        display: grid;
+    }
+    .col-4{
+        max-width: 100% !important;
+    }
+    .card-person-type{
+       
+    }
+}
