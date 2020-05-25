@@ -1,6 +1,5 @@
-
 nav.cian {
-    background: rgba(204, 204, 204, 0.9)!important;
+    background: rgba(19, 121, 255, 0.9)!important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
     transition: .5s;
     
@@ -11,7 +10,7 @@ nav.vista {
     transition: top 5s;
 }
 .main-navegation-bar{
-    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
     width: 100%;
     height: 100px;
     display: flex;
@@ -20,6 +19,8 @@ nav.vista {
     position: fixed;
     z-index: 9999;
 }
+.contrast { filter: contrast(100%); }
+.brightness { filter: brightness(100); }
 
 .logo-mb{
     height: 40px;
@@ -35,7 +36,7 @@ nav.vista {
 }
 .menu-display ul a{
     text-decoration: none;
-    color: rgb(0,0,0);
+    color: rgb(255, 255, 255);
     vertical-align: middle;
     font-weight: normal;
     

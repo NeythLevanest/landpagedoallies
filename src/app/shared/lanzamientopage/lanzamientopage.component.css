@@ -1,0 +1,87 @@
+.lanzamiento{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.lanzamiento-img{
+    width: auto;
+    height: 450px;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+.fab{
+    margin-right: 100px;
+}
+.logo-mb{
+    height: 40px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.separar{
+    margin-top: 40px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    .lanzamiento{
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .lanzamiento-img{
+        width: auto;
+        height: 450px;
+    }
+    .display{
+        display: flex;
+        justify-content: center;
+    }
+    .fab{
+        margin-right: 100px;
+    }
+    .logo-mb{
+        height: 40px;
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .separar{
+        margin-top: 40px;
+    }
+    
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .lanzamiento{
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .lanzamiento-img{
+        width: auto;
+        height: 350px;
+    }
+    .display{
+        display: flex;
+        justify-content: center;
+    }
+    .fab{
+        margin-right: 100px;
+    }
+    .logo-mb{
+        height: 40px;
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .separar{
+        margin-top: 40px;
+    }
+    
+  }

@@ -24,3 +24,6 @@ html, body{
 p{
     color: rgb(78, 78, 78);
 }
+.text{
+    font-family: "Microsoft YaHei Light", Helvetica, sans-serif;
+}

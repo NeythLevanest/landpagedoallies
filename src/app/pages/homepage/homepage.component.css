@@ -19,9 +19,7 @@
     height: auto;
     width: 200px;
 }
-.text{
-    font-family: "Microsoft YaHei Light", Helvetica, sans-serif;
-}
+
 .information-section{
     padding-left: 20px;
     display: flex;
@@ -143,8 +141,8 @@
     z-index: -99;
 }
 
-
-@media only screen and (min-width: 734px) and (max-width: 959px){
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 959px){
     
     .container-home {
         display: grid !important;
@@ -180,8 +178,8 @@
         max-width: 100% !important;
     }
 }
-
-@media only screen and (min-device-width: 330px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2){
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     .container-home {
         display: grid !important;
         margin: 160px auto;
@@ -190,7 +188,8 @@
         margin-right: 5;
         width: 100%;
     }
-    .col-6{
+    
+    [class*="col-6"]{
         flex:none;
         max-width: 100%;
     }
@@ -217,54 +216,12 @@
     .display-elements{
         display: grid;
     }
-    .col-4{
+    [class*="col-4"]{
         max-width: 100% !important;
     }
-    .card-person-type{
-       
-    }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 2){
-    .container-home {
-        display: grid !important;
-        margin: 160px auto;
-    }
-    .container-home-2 {
-        margin-right: 5;
-        width: 100%;
-    }
-    .col-6{
-        flex:none;
-        max-width: 100%;
-    }
-    .img-card{
-        justify-content: center;
-    }
-    .vertical-borderline{
-        border-left: none !important;
-        margin-top: 100px;
-        padding: 0;
-    }
-
-    .text-section{
-        text-align: center;
-    }
-    .text-padding{
-        max-width: 100% !important;
-        padding: 90px 100px 80px 60px;
-    }
-    .img-servicio-home{
-        display: none;
-    }
-        
-    .display-elements{
-        display: grid;
-    }
-    .col-4{
-        max-width: 100% !important;
-    }
-    .card-person-type{
-       
-    }
-}
+ 
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+ 
+  
